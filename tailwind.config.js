@@ -13,9 +13,6 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
-    fontFamily: {
-      mono: ['ui-monospace', 'SFMono-Regular'],
-    },
     extend: {
       colors: {
         primary: {
