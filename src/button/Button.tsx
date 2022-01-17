@@ -1,5 +1,4 @@
 import className from 'classnames';
-import { css } from 'styled-jsx/css';
 
 type IButtonProps = {
   xl?: boolean;
