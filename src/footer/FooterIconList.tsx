@@ -8,7 +8,7 @@ const FooterIconList = (props: IFooterIconListProps) => (
   <div className="footer-icon-list flex flex-wrap">
     {props.children}
 
-    <style jsx>
+    {/* <style jsx>
       {`
         .footer-icon-list :global(a:not(:last-child)) {
           @apply mr-3;
@@ -26,7 +26,7 @@ const FooterIconList = (props: IFooterIconListProps) => (
           @apply fill-current w-5 h-5;
         }
       `}
-    </style>
+    </style> */}
   </div>
 );
 

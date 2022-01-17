@@ -21,7 +21,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
       </ul>
     </nav>
 
-    <style jsx>
+    {/* <style jsx>
       {`
         .navbar :global(li:not(:first-child)) {
           @apply mt-0;
@@ -31,7 +31,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
           @apply mr-5;
         }
       `}
-    </style>
+    </style> */}
   </div>
 );
 

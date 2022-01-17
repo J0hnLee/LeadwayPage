@@ -27,13 +27,13 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
       <FooterCopyright />
     </div>
 
-    <style jsx>
+    {/* <style jsx>
       {`
         .navbar :global(li) {
           @apply mx-4;
         }
       `}
-    </style>
+    </style> */}
   </div>
 );
 
