@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { Aos } from 'aos';
+import  Aos  from 'aos';
 import className from 'classnames';
 import { useRouter } from 'next/router';
 
