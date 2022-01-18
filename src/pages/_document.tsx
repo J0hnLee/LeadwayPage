@@ -7,7 +7,11 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        
+        <Head>
+          <link rel='manifest' href='/manifest.json' />
+          <link rel='apple-touch-icon' href='/icon.png'/>
+        </Head>
         <body>
           <Main />
           <NextScript />
