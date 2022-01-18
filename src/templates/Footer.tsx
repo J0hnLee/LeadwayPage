@@ -77,6 +77,7 @@ const Footer = () => (
           </>
         }
       >
+        <div className='xl:flex xl:flex-row xl:space-x-5  sm:flex sm:flex-col'>
         <li>
           <Link href="/">
             <a>Home</a>
@@ -92,6 +93,7 @@ const Footer = () => (
             <a>各項服務</a>
           </Link>
         </li>
+        </div>
         {/* <li>
           <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
             <a>各項產品</a>

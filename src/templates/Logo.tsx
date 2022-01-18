@@ -1,5 +1,4 @@
 import { AppConfig } from '../utils/AppConfig';
-// import styles from './header.css';
 
 type ILogoProps = {
   xl?: boolean;
@@ -31,7 +30,7 @@ const Logo = (props: ILogoProps) => {
         <path d="M4 20h14" />
       </svg> */}
 
-      <div className="text-2xl mt-4 mb-16 font-serif">
+      <div className="text-2xl mt-0 mb-5 font-serif m-0 sm:flex sm:flex-col sm:justify-center">
         {AppConfig.site_name}
       </div>
     </span>

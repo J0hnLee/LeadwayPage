@@ -15,6 +15,7 @@ const Button = (props: IButtonProps) => {
 
   return (
     <div className={btnClass}>
+      
       {props.children}
 
       <style jsx>
@@ -32,11 +33,12 @@ const Button = (props: IButtonProps) => {
             @apply text-white bg-primary-500;
           }
           .btn-primary:hover {
-            @apply bg-primary-600;
+            @apply bg-primary-800;
           }
         `}
       </style>
     </div>
+    
   );
 };
 

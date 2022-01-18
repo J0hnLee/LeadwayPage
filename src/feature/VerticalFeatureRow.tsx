@@ -1,6 +1,4 @@
-import { useEffect } from 'react';
 
-import  Aos  from 'aos';
 import className from 'classnames';
 import { useRouter } from 'next/router';
 
@@ -22,13 +20,17 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
       'flex-row-reverse': props.reverse,
     }
   );
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+  
   const router = useRouter();
 
   return (
-    <div className={verticalFeatureClass} data-aos="fade-up-right">
+    <div className={verticalFeatureClass} data-aos="fade-down-right" data-aos-delay="200"
+    data-aos-offset="100"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
       <div className="w-full sm:w-1/2 text-center sm:px-6">
         <h3 className="text-3xl text-gray-900 font-semibold">{props.title}</h3>
         <div className="mt-6 text-xl leading-9">{props.description}</div>

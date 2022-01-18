@@ -10,13 +10,13 @@ import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
-const Hero = () => {
+const NavBar = () => {
   const [checked, setChecked] = useState(false);
   useEffect(() => {
     setChecked(true);
   }, []);
   return (
-    <Background color=" bg-gradient-to-r from-sky-500 to-indigo-500">
+    <Background color="bg-gradient-to-r from-sky-500 to-indigo-500 ">
       <Section yPadding="py-6">
         <NavbarTwoColumns logo={<Logo xl />}>
           <li>
@@ -37,11 +37,6 @@ const Hero = () => {
           <li>
             <Link href="/">
               <a>Blog</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-              <a>Sign in</a>
             </Link>
           </li>
         </NavbarTwoColumns>
@@ -70,4 +65,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default NavBar;
