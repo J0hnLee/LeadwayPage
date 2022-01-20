@@ -20,7 +20,7 @@ const NavBar = () => {
       <Section yPadding="py-6">
         <NavbarTwoColumns logo={<Logo xl />}>
           <li>
-            <Link href="/">
+            <Link scroll href="/products">
               <a>各項產品</a>
             </Link>
           </li>
