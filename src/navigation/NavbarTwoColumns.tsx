@@ -11,7 +11,7 @@ type INavbarProps = {
 //FIXME:
 // TODO: add RWD
 const NavbarTwoColumns = (props: INavbarProps) => (
-  <div className="flex flex-wrap justify-between items-center sm:flex-col md:flex-row">
+  <div className="flex flex-wrap justify-between items-center flex-col sm:flex-row">
     <div className='flex flex-col w-24 '>
       <Link href='/'>
           <img  className='justify-content-center' src='/android-chrome-192x192.png'></img>

@@ -16,17 +16,17 @@ const NavBar = () => {
     setChecked(true);
   }, []);
   return (
-    <Background color="bg-gradient-to-r from-sky-500 to-indigo-500 ">
+    <Background color="bg-gradient-to-r from-sky-500  via-lime-300 to-sky-500 ">
       <Section yPadding="py-6">
         <NavbarTwoColumns logo={<Logo xl />}>
           <li>
             <Link scroll href="/products">
-              <a>各項產品</a>
+              <a className='w-10 sm:w-20'>各項產品</a>
             </Link>
           </li>
           <li>
             <Link href="/">
-              <a>各項服務</a>
+              <a className='w-10 sm:w-20'>各項服務</a>
             </Link>
           </li>
           <li>
