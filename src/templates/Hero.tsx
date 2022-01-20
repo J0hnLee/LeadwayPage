@@ -21,12 +21,12 @@ const NavBar = () => {
         <NavbarTwoColumns logo={<Logo xl />}>
           <li>
             <Link scroll href="/products">
-              <a className='w-10 sm:w-20'>各項產品</a>
+              <a className='w-12 sm:w-20'>各項產品</a>
             </Link>
           </li>
           <li>
             <Link href="/">
-              <a className='w-10 sm:w-20'>各項服務</a>
+              <a className='w-12 sm:w-20'>各項服務</a>
             </Link>
           </li>
           <li>
