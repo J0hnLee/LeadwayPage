@@ -1,0 +1,9 @@
+{
+  "product": [
+    { "name": "起家雞", "price": 400, "key": "kh" },
+    { "name": "小籠包", "price": 100, "key": "kh" },
+    { "name": "肯德基", "price": 200, "key": "KFC" },
+    { "name": "麥當勞", "price": 300, "key": "MCD" },
+    { "name": "MoMo pardise", "price": 600, "key": "MCD" }
+  ]
+}

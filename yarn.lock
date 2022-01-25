@@ -1057,6 +1057,13 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@lucky-canvas/react@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@lucky-canvas/react/-/react-0.1.5.tgz#34ee0149527de6eeca69d3dca596ee5674acece6"
+  integrity sha512-L6vypQBxT5rgc8qbYkYUnOUoA4XTJ/b3FNZQpmV4CdAP6I79XarDv4Z2a6ZC1WQJdlT/+JWnp0NmV6jKxBgolA==
+  dependencies:
+    lucky-canvas "^1.7.19"
+
 "@mui/base@5.0.0-alpha.64":
   version "5.0.0-alpha.64"
   resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-alpha.64.tgz#1d108458932a81694efbf49f8b588e0a6bba3ff3"
@@ -3597,6 +3604,11 @@ lru-cache@^6.0.0:
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
   dependencies:
     yallist "^4.0.0"
+
+lucky-canvas@^1.7.19:
+  version "1.7.19"
+  resolved "https://registry.yarnpkg.com/lucky-canvas/-/lucky-canvas-1.7.19.tgz#8983bd1739bb9b228768470508ab4e5c84b8df33"
+  integrity sha512-Gh6JZg0mc0ej9eG/UdTxwAY/OV2LsOXOF0XOK1lgCfdhMZM3TSphFi65zGL5lTVbFn9mNhieT6X3f3NNL3ihKg==
 
 magic-string@^0.25.0, magic-string@^0.25.7:
   version "0.25.7"
