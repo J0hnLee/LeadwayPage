@@ -22,7 +22,7 @@ const Products =()=>{
   const state = {
     blocks: [{ padding: '13px', background: '#617df2' }],
     prizes: [
-      { fonts: [{ text: '起家雞', top: '10%' }], background: '#e9e8fe' },
+      { fonts: [{ text: '起家雞', top: '20%' }], background: '#e9e8fe' },
       { fonts: [{ text: '雞肉飯', top: '10%' }], background: '#b8c5f2' },
       { fonts: [{ text: '涼麵', top: '10%' }], background: '#e9e8fe' },
       { fonts: [{ text: '小籠包', top: '10%' }], background: '#b8c5f2' },
