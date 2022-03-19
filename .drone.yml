@@ -1,0 +1,9 @@
+steps:
+- name: docker  
+  image: plugins/docker
+  settings:
+    username: kevinbacon
+    password: pa55word
+    repo: foo/bar
+    build_args:
+      - HTTP_PROXY=http://yourproxy.com
