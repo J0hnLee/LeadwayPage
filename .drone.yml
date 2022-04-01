@@ -1,5 +1,6 @@
-steps:
-- name: docker  
+
+steps:                                                                                                                                                                                                  [0/2952]
+- name: docker
   image: plugins/docker
   settings:
     username: kevinbacon
@@ -7,3 +8,8 @@ steps:
     repo: foo/bar
     build_args:
       - HTTP_PROXY=http://yourproxy.com
+~
+~
+~
+~
+~
